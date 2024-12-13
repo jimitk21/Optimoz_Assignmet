@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #357abd;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #545b62;
+}
+
+#expenseList, #menuOptions {
+    margin-top: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.expense-item {
+    background-color: #f9f9f9;
+    border-left: 4px solid #4a90e2;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.expense-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.expense-item .category {
+    font-weight: bold;
+    color: #4a90e2;
+}
+
+.warning {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.success {
+    color: #28a745;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#budgetSection, #mainMenu {
+    display: block;
+}
+
+.menu-btn {
+    margin-bottom: 10px;
+}
+    
